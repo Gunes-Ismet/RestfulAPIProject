@@ -8,7 +8,7 @@ using RestfulAPIProject.Models.Entities.Concrete;
 namespace RestfulAPIProject.Controllers
 {
     /*
-        ProducesResponseType => Bir action methodu içerisinde bir çok dçnüş türü ve yolu bulunma ihtimali yüksektir. "ProducesResponseType" özniteliği kullanılarak farklı dönüş tiplerini Swagger gibi araçlara tarafında dökümantasyonlarında istemciler için daha açıklayıcı yanıt ayrıntıları üretir. 
+        ProducesResponseType => Bir action methodu içerisinde bir çok dönüş türü ve yolu bulunma ihtimali yüksektir. "ProducesResponseType" özniteliği kullanılarak farklı dönüş tiplerini Swagger gibi araçlara tarafında dökümantasyonlarında istemciler için daha açıklayıcı yanıt ayrıntıları üretir. 
      */
     [Route("api/[controller]")]
     [ApiController]
